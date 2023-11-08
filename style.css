@@ -1,0 +1,202 @@
+.container{
+    width: 900px;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.block{
+    width: 270px;
+    height: 200px;
+    border: 1px solid;
+    margin-left: 13px;
+    border-radius:8px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+  
+}
+p{
+    width: 100%;
+    height: 40px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 23px;
+    font-weight: bold;
+}
+.block1{
+    border: 3px solid rgb(93, 183, 208);
+    
+}
+.block1 p {
+    border-bottom: 2px solid rgb(93, 183, 208);
+    background-color: rgba(151, 214, 232, 0.538);
+    color: #419a97;
+}
+.block2{
+    border: 3px solid rgb(93, 183, 208);
+}
+.block2 p {
+    border-bottom: 2px solid rgb(93, 183, 208);
+    background-color: rgba(151, 214, 232, 0.538);
+    color: #419a97;
+    
+}
+.block3{
+    border: 3px solid rgb(93, 183, 208);
+}
+.block3 p {
+    border-bottom: 2px solid rgb(93, 183, 208);
+    background-color: rgba(151, 214, 232, 0.538);
+    color: #419a97;
+    
+}
+.block4{
+    border: 3px solid rgb(222, 231, 89);
+    
+}
+.block4 p {
+    border-bottom: 2px solid rgb(239, 230, 97);
+    background-color: rgba(213, 236, 136, 0.538);
+    color: #fba846;
+}
+.block5{
+    border: 3px solid rgb(222, 231, 89);
+    
+}
+.block5 p {
+    border-bottom: 2px solid rgb(239, 230, 97);
+    background-color: rgba(213, 236, 136, 0.538);
+    color: #fba846;
+    
+}
+.block6{
+    border: 3px solid rgb(222, 231, 89);
+    
+}
+.block6 p {
+    border-bottom: 2px solid rgb(239, 230, 97);
+    background-color: rgba(213, 236, 136, 0.538);
+    color: #fba846;
+    
+}
+.block7{
+    border: 3px solid rgba(225, 78, 64, 0.858);
+}
+.block7 p{
+    border-bottom: 2px solid rgba(225, 77, 64, 0.842);
+    background-color: rgba(247, 151, 143, 0.337);
+    color: #b24a56;
+}
+.block8{
+    border: 3px solid rgba(225, 78, 64, 0.858);
+}
+.block8 p{
+    border-bottom: 2px solid rgba(225, 77, 64, 0.842);
+    background-color: rgba(247, 151, 143, 0.337);
+    color: #b24a56;
+    
+}
+.block9{
+    border: 3px solid rgba(225, 78, 64, 0.858);
+}
+.block9 p{
+    border-bottom: 2px solid rgba(225, 77, 64, 0.842);
+    background-color: rgba(247, 151, 143, 0.337);
+    color: #b24a56;
+    
+}
+
+.block img{
+    width: 160px;
+    position: absolute;
+}
+.block1 img{
+    width: 230px;
+    margin-top: 55px;
+}
+.block2 img{
+    width: 230px;
+    margin-top: 50px;
+}
+.block3 img{
+    width: 80px;
+    margin-top: 59px;
+}
+.block4 img{
+    width: 190px;
+    margin-top: 50px;
+}
+.block5 img{
+    width: 200px;
+    margin-top: 55px;
+}
+.block6 img{
+    width: 100px;
+    margin-top: 60px;
+}
+.block7 img{
+    width: 200px;
+    margin-top: 50px;
+}
+.block8 img{
+    width: 90px;
+    margin-top: 50px;
+    transform: rotate(50deg);
+}
+.block9 img{
+    width: 200px;
+    margin-top: 45px;
+}
+.block span{
+    position: absolute;
+    margin-top: 150px;
+    font-size: 24px;
+}
+.block1 span{
+    color: #2994ac;
+    
+}
+
+.block2 span{
+    color: #2994ac;
+    
+}
+
+.block3 span{
+    color: #2994ac;
+    
+}
+.block4 span{
+    color: #fba846;
+
+}
+
+.block5 span{
+    color: #fba846;
+
+}
+
+.block6 span{
+    color: #fba846;
+
+}
+.block7 span{
+    color: #b24a56;
+
+}
+.block8 span{
+    color: #b24a56;
+
+}
+.block9 span{
+    color: #b24a56;
+
+}
